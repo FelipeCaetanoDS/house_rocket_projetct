@@ -277,14 +277,14 @@ def filtering_data(data):
 if __name__ == '__main__':
 
 # Extract
-    path = 'datasets\\kc_house_data.csv'
-    path2 = 'datasets\\zipcodes.geojson'
+    path = 'kc_house_data.csv'
+    path2 = 'zipcodes.geojson'
     
 # Load
     data = data_cleaning(get_data(path))
     geofile = get_geofile(path2)
 
-# Transformation
+# Transform
     data = filtering_data(data)
     data_preview(data)
     statistics(data)
