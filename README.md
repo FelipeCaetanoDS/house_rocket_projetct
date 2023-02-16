@@ -81,7 +81,7 @@ Quais foram as etapas para solucionar o problema de negócio:
 
 - Elaboração e validação de hipóteses.
 - Desenvolvimento de app interativo para análise personalizada.
-[link para app no Heroku](https://felipe-houserocketproject.streamlit.app/)
+[link para app no Streamlit](https://felipe-houserocketproject.streamlit.app/)
 
 5. Responder as questões principais do negócio
 
